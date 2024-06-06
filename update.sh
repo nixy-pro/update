@@ -27,7 +27,7 @@ fun_bar() {
     tput cnorm
 }
 res1() {
-    wget https://raw.githubusercontent.com/nixy-pro/update/mastermenu/menu.zip
+    wget https://raw.githubusercontent.com/nixy-pro/update/master/menu/menu.zip
     unzip menu.zip
     chmod +x menu/*
     mv menu/* /usr/local/sbin
