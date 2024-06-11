@@ -35,7 +35,7 @@ echo -e " WELCOME TO NIXY TUNNELING SCRIPT ${YELLOW}(${NC}${green}Stable Edition
 echo -e " PROSES PENGECEKAN IP ADDRESS ANDA !!"
 echo -e "${purple}----------------------------------------------------------${NC}"
 echo -e " ›AUTHOR : ${green}NIXY STORE® ${NC}${YELLOW}(${NC}${green}V 3.2${NC}${YELLOW})${NC}"
-echo -e " ›TEAM 🅥🅝: NIXY STORE ${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
+echo -e " ›TEAM : NIXY STORE ${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
 sleep 2
