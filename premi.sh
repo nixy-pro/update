@@ -311,7 +311,7 @@ else
 sts="${Error}"
 fi
 TIMES="10"
-CHATID="5289385265"
+CHATID="-1001850051195"
 KEY="6525206851:AAEK0Wcrr86LiFOe8M0E4Vn9xH0qIPN8rqE"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 ISP=$(cat /root/.isp)
@@ -319,19 +319,17 @@ CITY=$(cat /root/.city)
 TIMEZONE=$(printf '%(%H:%M:%S)T')
     TEXT="
 <code>────────────────────</code>
-<b>⚡𝗡𝗢𝗧𝗜𝗙 𝗜𝗡𝗦𝗧𝗔𝗟𝗟 𝗦𝗖𝗥𝗜𝗣𝗧⚡</b>
+<b> AUTOSCRIPT NOTIFICATIONS </b>
 <code>────────────────────</code>
-<code>User     :</code><code>$username</code>
-<code>ISP      :</code><code>$ISP</code>
+<code>USER     :</code><code>$username</code>
 <code>CITY     :</code><code>$CITY</code>
 <code>DATE     :</code><code>$DATE</code>
-<code>Time     :</code><code>$TIMEZONE</code>
-<code>Exp Sc.  :</code><code>$exp</code>
+<code>TIME     :</code><code>$TIMEZONE</code>
+<code>EXP SC   :</code><code>$exp</code>
 <code>────────────────────</code>
-<b> NIXY VPN STORE SCRIPT  </b>
+<b> SUCCESSFUL INSTALLATION </b>
 <code>────────────────────</code>
-<i>Automatic Notifications From Github</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"t.me/nixy_store"}]]}' 
+"'&reply_markup={"inline_keyboard":[[{"text":"ORDER","url":"t.me/nixy_store"}]]}' 
 
     curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
@@ -1015,7 +1013,7 @@ echo ""
 echo ""
 echo "------------------------------------------------------------"
 echo ""
-echo "===============-[ SCRIPT BY VILLAIN TUNNEL ]-==============="
+echo "===============-[ SCRIPT BY NIXY TUNNEL ]-==============="
 echo -e ""
 echo ""
 echo "" | tee -a log-install.txt
